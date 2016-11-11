@@ -11,16 +11,21 @@ body{
 
 header{
 	background: url("../img/banerlarg.jpg")  no-repeat;
+	background-position: top right;
 	height: 1057px;
 	max-width: 1370px;
 	margin: 0 auto;
 }
 
-/*header:hover{
-	background: linear-gradient(to right, rgba(51,77,92,0.5) , rgba(255,255,255,0.5));
+header:hover{
+	background: radial-gradient(transparent,rgba(51,77,92,0.3)), url("../img/banerlarg.jpg");
+	background-position: top right;
+	background-repeat:no-repeat;
+	
 }
-*/
 
+/*background:liner-gradient(transparent,rgba(0,0,0,0.7)),url("../img/banerlarg.jpg");
+	background-repeat:no-repeat;*/
 
 i.fa-twitter, i.fa-facebook{
  	color: #fa5c65;
@@ -85,4 +90,25 @@ font-size: 36px;
  }
  .title>button>a{
  	color: #fff;
+ }
+
+
+.features {
+	margin-top: 85px;
+
+}
+ .features p{
+ 	font-size: 15px;
+ 	color: #9aa0ab;
+ }
+ p.peace{
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: bold;
+ 	font-size: 26px;
+ 	text-transform: uppercase;
+ 	color: #465065;
+
+ }
+ .peace span{
+ 	color: #f0454c;
  }
