@@ -10,14 +10,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300" rel="stylesheet"> 
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	
 	
 </head>
 
 <body>
-<header>
+<header id="about">
 		<nav>
+		<div class="www">
 			<div class="container">
 				<div class="row">
 					<div class="navbar-header">
@@ -32,15 +34,16 @@
 
 					<div class="collapse navbar-collapse navbar-right" id="top_menu">
 						<ul class="menu">
-							<li><a href="#">About</a></li>
-							<li><a href="#">Work</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#work">Work</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#team">Team</a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						</ul>
 					</div>
 				</div>
+			</div>
 			</div>
 		</nav>
 <div class="container">
@@ -56,30 +59,276 @@
 			</div>
 			</div>
 </header>
-<section class="features">
+<section id="work" class="work">
 
 	<div class="container">
 	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-12">
+		<div class="col-lg-4 col-md-4 col-sm-12 colum">
 			<p class="peace">peace<br/> of mind<span>.</span></p>
 			<p>You’re safe with us. The privacy and security of your financial information is our top priority.</p>
-			<p class="more">more</p>
+			<div class="toggle">
+	        <div class="content">You’re safe with us. The privacy and security of your financial information is our top priority.</div>
+	        <a class="toggler more" href="#">more<i class="fa fa-arrow-right"></i></a>
+	        </div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
+		<div class="col-lg-4 col-md-4 col-sm-12 colum">
 			<p class="peace">free<span>.</span><br/> actualy free</p>
 			<p>No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</p>
-			<p class="more">more</p>
+			<div class="toggle">
+	        <div class="content">No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</div>
+	        <a class="toggler more" href="#">more<i class="fa fa-arrow-right"></i></a>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12">
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 colum">
 			<p class="peace">simple<br/> peyments<span>.</span></p>
 			<p>The same debit card you use to buy coffee lets deposit money straight to your bank account.</p>
-			<p class="more">more</p>
+			<div class="toggle">
+	        <div class="content">The same debit card you use to buy coffee lets deposit money straight to your bank account.</div>
+	        <a class="toggler more" href="#">more<i class="fa fa-arrow-right"></i></a>
+
+			<!-- <p class="more"><a id="toggler" href="#">more<i class="fa fa-arrow-right"></i></a></p>
+			<div id="box" style="display: none;">You’re safe with us. The privacy and security of your financial information is our top priority.</div> -->
+			
 		</div>
 		</div>
 	</div>
-		
-	
+	</div>
 </section>
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+  	<div class="row">
+  		<div class="visible-xs point ">...   ...   ...</div>
+  		<div class="col-lg-6 ol-md-6 col-sm-6 col-xs-12 ">
+  			<img src="img/portfolio.jpg">
+  		</div>
+  		<div class="col-lg-6 ol-md-6 col-sm-6 col-xs-12 part">
+  			<p class="port">portfolio<span>.</span></p>
+  			<p class="descrip">We are small, but strong team.</p>
+			<p>No more pricing grids. No more fine print.<br/> Sending and receiving cash is free without gimmicks.<br/><br/>The same debit card you use to buy coffee lets deposit money straight to your bank account.</p>
+			<div class="toggle">
+	        <div class="content">No more pricing grids.<br/> No more fine print. Sending and receiving cash is free without gimmicks.<br/>The same debit card you use to buy coffee lets deposit money straight to your bank account.</div>
+	        <a class="toggler more" href="#">more<i class="fa fa-arrow-right"></i></a>
+		</div>
+  		</div>
+  	</div>
+  
+</section>
+
+<section  class="team">
+	<div class="container">
+		<div class="row">
+			<div id="team" class="col-lg-12 our">
+				our team<span>.</span>
+				<p>They are big but still friendly.</p>
+			</div>
+			<div class="col-lg-4 person">
+				<div class="foto"><img src="img/Joey.png">
+				</div>
+				<div class="empl">
+					<p>joey</p>
+					<p class="job">Web developer</p>
+					<p>Coffee lover.  Always on bike. iPhone fan.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 person">
+			<div class="foto"><img src="img/matt.png">
+				</div>
+				<div class="empl">
+					<p>matt</p>
+					<p class="job">Web designer</p>
+					<p>MTB Biker. Photoshop Master. Loving Father.</p>
+				</div></div>
+			<div class="col-lg-4 person">
+			<div class="foto"><img src="img/mike.png">
+				</div>
+				<div class="empl">
+					<p>mike</p>
+					<p class="job">Copywriter</p>
+					<p>Drummer. Soup lover. Beer Drinker. Cyclist.</p>
+				</div></div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="line"></div>
+			<div class="col-lg-6 col-sm-6 soc">
+				<a href=""><i class="fa fa-twitter"></i></a>
+				<a href=""><i class="fa fa-instagram"></i></a>
+				<a href=""><i class="fa fa-facebook"></i></a>
+				<a href=""><i class="fa fa-google-plus"></i></a>
+			</div>
+			<div class="col-lg-6 col-sm-6 copy">© Freelancer - Designed by Wojtek Kwiatkowski</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+var base = {
+
+	    // Поиск элементов по классу
+
+	    findClass: function(str, node) {
+
+	         if(document.getElementsByClassName) return (node || document).getElementsByClassName(str);
+
+	         else {
+
+	              var node = node || document, list = node.getElementsByTagName('*'), length = list.length, Class = str.split(/\s+/), classes = Class.length, array = [], i, j, key;
+
+	              for(i = 0; i < length; i++) {
+
+	                    key = true;
+
+	                    for(j = 0; j < classes; j++) if(list[i].className.search('\\b' + Class[j] + '\\b') == -1) key = false;
+
+	                    if(key) array.push(list[i]);
+
+	              }
+
+	              return array;
+
+	         }
+
+	    },
+
+	    // Добавление обработчиков событий
+
+	    bind: function(node, type, listener) {
+
+	        if(node.addEventListener) node.addEventListener(type, listener, false);
+
+	        //@cc_on node.attachEvent('on' + type, function() { listener.call(node); });
+
+	    },
+
+	    // Реализация DOMContentLoaded
+
+	    init: [],
+
+	    ready: function() {
+
+	        if(!arguments.callee.done) {
+
+	            arguments.callee.done = true;
+
+	            if(this.timer) clearInterval(this.timer);
+
+	            var i, length = this.init.length;
+
+	            for(i = 0; i < length; i++) this.init[i]();
+
+	            this.init = [];
+
+	        }
+
+	    },
+
+	    check: function() {
+
+	        var _this = this, listener = function() {
+
+	            _this.ready();
+
+	        };
+
+	        if(document.addEventListener) document.addEventListener('DOMContentLoaded', listener, false);
+
+	        if(/KHTML|WebKit/i.test(navigator.userAgent)) this.timer = setInterval(function() {
+
+	            if(/loaded|complete/.test(document.readyState)) base.ready();
+
+	        }, 10);
+
+	        /*@cc_on document.write(unescape('%3CSCRIPT onreadystatechange="if(this.readyState==\'complete\') base.ready()" defer=defer src=\/\/:%3E%3C/SCRIPT%3E')); @*/
+
+	        this.bind(window, 'load', listener);
+
+	    }
+
+	};
+
+	 
+
+	// Функции для работы с панельками
+
+	var toggler = {
+
+    process: function() {
+
+	        var i, list = base.findClass('toggler'), length = list.length;
+
+	        for(i = 0; i < length; i++) base.bind(list[i], 'click', this.toggle);
+
+	        list = base.findClass('content');
+
+	        length = list.length;
+
+	        for(i = 0; i < length; i++) list[i].style.display = 'none';
+
+	    },
+
+	    toggle: function() {
+
+	        var content = base.findClass('content', this.parentNode)[0], e = arguments[0] || window.event;
+
+	        if(content.style.display == 'block') {
+
+	            content.style.display = 'none';
+
+	            this.innerHTML = 'more <i class="fa fa-arrow-right"></i>';
+
+	        }
+
+	        else {
+
+	            content.style.display = 'block';
+
+	            this.innerHTML = 'less <i class="fa fa-arrow-left"></i>';
+
+	        }
+
+	        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+	    }
+
+	};
+
+	 
+
+	// Ищем блоки с классом «toggle» по событию DOMContentLoaded
+
+	base.init.push(function() {
+	    toggler.process();
+
+	});
+
+	 
+
+	// Запускаем проверку готовности DOM
+
+	base.check();
+
+	// window.onload= function() {
+	//     document.getElementById('toggler').onclick = function() {
+ //   openbox('box', this);
+ //   return false;
+
+	//     };
+	// };
+	// function openbox(id, toggler) {
+	//     var div = document.getElementById(id);
+ // if(div.style.display == 'block') {
+ //   div.style.display = 'none';
+ //    toggler.innerHTML = 'more <i class="fa fa-arrow-right"></i>';
+ //  }
+ //  else {
+ //      div.style.display = 'block';
+ //      toggler.innerHTML = 'less <i class="fa fa-arrow-left"></i>';
+ //  }
+	// }
+</script>
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>

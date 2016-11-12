@@ -6,7 +6,20 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	
+	.work{
+		margin-top: 40px;
+	}
 
+	.portfolio img{
+	max-width: 380px;
+
+}
+.part{
+	max-width: 380px;
+}
+p.port{
+	margin-top: 45px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -21,6 +34,9 @@ header:hover{
 			background-position: top right;
 		}
 
+.our {
+	margin-top: 30px;
+}
 }
 /* XSmall Devices, Tablets */
 @media only screen and (max-width : 360px) {
@@ -58,4 +74,15 @@ header:hover{
 	    	color: #fa5c65;
 	    }*/
 
+
+		.portfolio img {
+			display: none;
+		}
+		.copy{
+			text-align: center;
+			margin-top: 20px;
+		}
+		.soc{
+			text-align: center;
+		}
 	    }
