@@ -23,7 +23,7 @@ p.port{
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width : 767px) {
 
 header{
 			background: url("../img/banerM.jpg")  no-repeat;
@@ -37,7 +37,69 @@ header:hover{
 .our {
 	margin-top: 30px;
 }
+.menu li{
+			min-width: 300px;
+			margin:10px auto;
+			text-align: center;
+			line-height: 30px;
+
+		}
+	
+	    ul.menu {
+	    	background-color: rgba(255,255,255,0.7);
+	    	text-align: center;
+	    	max-width: 300px;
+	    	margin: 0 auto;
+	    }
+	    
+		.part{
+			margin: 0 auto;
+		}
+		.portfolio img{
+			width: 100%;
+		}
+	    .copy{
+			text-align: center;
+			margin-top: 20px;
+		}
+		.soc{
+			text-align: center;
+		}
 }
+
+@media only screen and (max-width : 620px) {
+
+
+.person{
+	min-width: 500px;
+}
+	.portfolio img {
+	display: none;
+		}
+		.part{
+			width: 100%;
+		}
+		}
+
+@media only screen and (max-width : 480px){
+.person{
+	width: 100%
+padding-right:30px;}
+
+	p.peace, 
+	.point,
+	p.port,
+	.our, 
+	.empl p:first-child{
+		font-size: 22px;
+	}
+	.person{
+	min-width: 400px;
+}	
+}
+
+
+
 /* XSmall Devices, Tablets */
 @media only screen and (max-width : 360px) {
 		
@@ -46,6 +108,7 @@ header:hover{
 		header{
 			background: url("../img/banerS.jpg")  no-repeat;
 			background-position: top right;
+			height: 920px;
 		}
 		header:hover{
 			background: url("../img/banerS.jpg")  no-repeat;
@@ -68,16 +131,16 @@ header:hover{
 	    .title{
 	    	margin-top:378px;
 	    	text-shadow: 1px -2px #fff;
-	    	font-size: 40px;
+	    	font-size: 36px;
 	    }
 	    /*.title p{
 	    	color: #fa5c65;
 	    }*/
 
-
-		.portfolio img {
-			display: none;
-		}
+	.person{
+	min-width: 300px;
+}	
+		
 		.copy{
 			text-align: center;
 			margin-top: 20px;
